@@ -28,6 +28,36 @@ src="https://www.facebook.com/tr?id=1245956808863557&ev=PageView&noscript=1"
 <!-- DO NOT MODIFY -->
 <!-- End Facebook Pixel Code -->
 
+<div>
+    <style scoped>
+
+        .button-success,
+        .button-error,
+        .button-warning,
+        .button-secondary {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        .button-success {
+            background: rgb(28, 184, 65); /* this is a green */
+        }
+
+        .button-error {
+            background: rgb(202, 60, 60); /* this is a maroon */
+        }
+
+        .button-warning {
+            background: rgb(223, 117, 20); /* this is an orange */
+        }
+
+        .button-secondary {
+            background: rgb(66, 184, 221); /* this is a light blue */
+        }
+
+    </style>
+
 </head>
 
 <body>
@@ -46,24 +76,14 @@ src="https://www.facebook.com/tr?id=1245956808863557&ev=PageView&noscript=1"
                     <li class="pure-menu-item">
                         <a href="/produk" class="pure-menu-link"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Produk</a>
                     </li>
-                    <li class="pure-menu-item pure-menu-has-children">
-                    <a href="#" id="menuLink1" class="pure-menu-link"><i class="fa fa-pencil" aria-hidden="true"></i> Jasa</a>
-                        <ul class="pure-menu-children">
-                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Autos</a></li>
-                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Flickr</a></li>
-                            <li class="pure-menu-item pure-menu-has-children">
-                                <a href="#" id="menuLink1" class="pure-menu-link">Even More</a>
-                                <ul class="pure-menu-children">
-                                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">Foo</a></li>
-                                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">Bar</a></li>
-                                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">Baz</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <li class="pure-menu-item">
+                    <a href="/jasa" class="pure-menu-link"><i class="fa fa-pencil" aria-hidden="true"></i> Jasa</a>
                     </li>
-                    <li class="pure-menu-item"><a href="/kontak" class="pure-menu-link"><i class="fa fa-paper-plane" aria-hidden="true"></i> Kontak</a></li>
+                    <li class="pure-menu-item">
+                    <a href="/kontak" class="pure-menu-link"><i class="fa fa-paper-plane" aria-hidden="true"></i> Kontak</a></li>
                     <li class="pure-menu-item"><a href="/tentang" class="pure-menu-link"><i class="fa fa-at" aria-hidden="true"></i> Tentang</a></li>
                     <li class="pure-menu-item"><a href="http://brionz.wasap.my" target="_blank" class="pure-menu-link"><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp</a></li>
+                    <li class="pure-menu-item"><a href="#keamanan" class="pure-menu-link">Transaksi</a></li>
 
                     
 
@@ -75,7 +95,7 @@ src="https://www.facebook.com/tr?id=1245956808863557&ev=PageView&noscript=1"
             <div class="header">
                 <h1>JasaTulis.com</h1>
                 <img class="pure-img-responsive" src="https://cdn-images-1.medium.com/max/800/1*8MCPeLOOnpT7mT4fBkE_Ow.png" alt="Jasa Penulis Artikel">
-                <h2>Jasa Penulis Artikel Profesional</h2>
+                <h2 style="color: red">Jasa Penulis Artikel Profesional</h2>
             </div>
 
             <div class="content">
@@ -106,7 +126,7 @@ src="https://www.facebook.com/tr?id=1245956808863557&ev=PageView&noscript=1"
                         semakin banyak pelanggan yang memesannya. Artikel bahasa Inggris maupun bahasa Indonesia ini tentu
                         saja memiliki kualitas yang sama baiknya. Semua artikel yang Anda terima sudah siap untuk langsung
                         di posting pada website milik Anda. </p>
-                    <h3 class="content-subhead">Prosesnya yang benar-benar Cepat</h3>
+                    <h3 class="content-subhead"><i class="fa fa-fast" aria-hidden="true"></i> Prosesnya yang benar-benar Cepat</h3>
                     <p>Hampir seluruh pelaku bisnis Adsense biasanya tidak memiliki deadline dan target tersendiri, sehingga
                         tidak akan memiliki banyak waktu untuk menunggu artikel yang mereka pesan selesai dalam waktu yang
                         lama. Untuk memenuhi kebutuhan tersebut, jasatulis.com juga menjamin bahwa setiap pesanan artikel
@@ -114,7 +134,7 @@ src="https://www.facebook.com/tr?id=1245956808863557&ev=PageView&noscript=1"
                         artikel tersebut akan langsung diterima. Ya, tidak berapa lama kemudian Anda sudah bisa menerima
                         artikel pesanan Anda dan langsung mempostingnya dalam website sehingga bisa langsung Anda optimasi
                         seperti biasanya. </p>
-                    <h3 class="content-subhead">Keamanan Transaksi</h3>
+                    <h3 class="content-subhead" id="keamanan"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Keamanan Transaksi<a href="#keamanan" class="content-link" title="Heading anchor"></a></h3>
                     <p>Seperti yang Anda tahu, ada beberapa transaksi online yang tidak hanya mencurigakan, namun juga sudah
                         jelas-jelas merugikan. Hal ini tidak akan terjadi jika Anda melakukan transaksi pembelian artikel
                         dengan jasatulis.com, karena dari awal jasatulis.com berdiri pun seluruh transaksi sudah dijamin
@@ -172,6 +192,32 @@ src="https://www.facebook.com/tr?id=1245956808863557&ev=PageView&noscript=1"
 
 
     <script src="js/ui.js"></script>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1536049379803174',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();   
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+  
+function onButtonClick() {
+  // Add this to a button's onclick handler
+  FB.AppEvents.logEvent("sentFriendRequest");
+}
+    
+</script>
     
 
 </body>
