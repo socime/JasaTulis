@@ -29,7 +29,7 @@
 /*	     01 - General & Basic Styles
 /*------------------------------------------*/
 body {
-	font-family: 'McLaren', cursive;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
     line-height: 21px;
 	font-weight: 300;
@@ -73,7 +73,7 @@ i {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'McLaren', cursive;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
 	margin: 0;
 	color: #444;
@@ -112,7 +112,7 @@ h6 {
 p {
     color: #303030;
     font-size: 16px;
-    font-family: 'McLaren', cursive;
+    font-family: 'Roboto', sans-serif;
     line-height: 22px;
     margin: 0;
 	align-content: center;
@@ -160,7 +160,7 @@ a.main-button, input[type="submit"] {
     text-decoration: none;
     color: #fff;
     font-size: 12px;
-    font-family: 'McLaren', cursive;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     padding: 6px 16px;
@@ -704,7 +704,7 @@ li.login-link a{
     display: block;
     color: #666;
     font-size: 13px;
-    font-family: 'McLaren', cursive;
+    font-family: 'Roboto', sans-serif;
     padding: 11px 16px;
     text-decoration: none;
     text-transform: capitalize;
@@ -1089,7 +1089,7 @@ ul.breadcrumbs {
 }
 
 ul.breadcrumbs li {
-	font-family: 'McLaren', cursive;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
 	font-weight: 300;
     margin-left: 3px;
@@ -1144,7 +1144,7 @@ input[type="submit"] {
 #respond textarea, .email {
     color: #666fb5;
     font-size: 13px;
-    font-family: 'McLaren', cursive;
+    font-family: 'Roboto', sans-serif;
     border: 1px solid #eee;
     border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -5529,7 +5529,7 @@ ul.footer-nav li a:hover {
 }
 
 .services-2-icon h4 {
-  font-family: 'McLaren', cursive;
+  font-family: 'Roboto', sans-serif;
   color: #404449;
   font-size: 16px;
   font-weight: 400;
@@ -5731,7 +5731,7 @@ ul.footer-nav li a:hover {
 }
 
 .services-3-icon h4 {
-  font-family: 'McLaren', cursive;
+  font-family: 'Roboto', sans-serif;
   color: #404449;
   font-size: 16px;
   font-weight: 400;
